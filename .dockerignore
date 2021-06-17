@@ -1,0 +1,17 @@
+# Top folder by size
+node_modules/
+# We don't need dist from the host, because we build it in docker.
+dist
+# We don't need test folder for production either
+test
+
+# Other
+.dockerignore
+.elasticbeanstalk/*
+.eslintrc.js
+.git
+.gitignore
+.prettierrc
+Dockerfile*
+README.md
+
